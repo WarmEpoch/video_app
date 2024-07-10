@@ -1,0 +1,32 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home"
+		},
+		{
+			"path": "pages/list"
+		},
+		{
+            "path" : "pages/webview"
+        },
+		{
+            "path" : "pages/info"
+        }
+        ,{
+            "path" : "pages/video"
+        },
+        {
+        	"path" : "pages/play"
+        }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationStyle":"custom",
+		"app-plus": {
+			"background": "#f5f5f5",
+			"bounce": "none",
+			"scrollIndicator": "none"
+		}
+	},
+	"uniIdRouter": {}
+}

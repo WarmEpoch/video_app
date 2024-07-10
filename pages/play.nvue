@@ -1,0 +1,33 @@
+<template>
+	<view>
+		<FatFatMeng-VideoPlayer :header="video.header" :VideoSrcList="video.list" :autoplay="true" class="myvideo"></FatFatMeng-VideoPlayer>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				video: {
+					// list: ['https://bj29-enet.cn-beijing.data.alicloudccp.com/pM2AzfWM%2F72353131%2F65e1cdfb82adde9bb469404da9f5c53f211e3d4f%2F65e1cdfbf49873c5632f4ff7b6bcd55384c5da05?callback=eyJjYWxsYmFja1VybCI6Imh0dHA6Ly9iajI5LmFwaS1ocC5hbGl5dW5wZHMuY29tL3YyL2ZpbGUvZG93bmxvYWRfY2FsbGJhY2siLCJjYWxsYmFja0JvZHkiOiJodHRwSGVhZGVyLnJhbmdlPSR7aHR0cEhlYWRlci5yYW5nZX1cdTAwMjZidWNrZXQ9JHtidWNrZXR9XHUwMDI2b2JqZWN0PSR7b2JqZWN0fVx1MDAyNmRvbWFpbl9pZD0ke3g6ZG9tYWluX2lkfVx1MDAyNnVzZXJfaWQ9JHt4OnVzZXJfaWR9XHUwMDI2ZHJpdmVfaWQ9JHt4OmRyaXZlX2lkfVx1MDAyNmZpbGVfaWQ9JHt4OmZpbGVfaWR9XHUwMDI2cGRzX3BhcmFtcz0ke3g6cGRzX3BhcmFtc30iLCJjYWxsYmFja0JvZHlUeXBlIjoiYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkIiwiY2FsbGJhY2tTdGFnZSI6ImJlZm9yZS1leGVjdXRlIiwiY2FsbGJhY2tGYWlsdXJlQWN0aW9uIjoiaWdub3JlIn0%3D&callback-var=eyJ4OmRvbWFpbl9pZCI6ImJqMjkiLCJ4OnVzZXJfaWQiOiJmYWRjODE1ZDE2OTQ0NGNkOGM5YThkZDZjY2EyYThmNiIsIng6ZHJpdmVfaWQiOiIxMTE1NDIwIiwieDpmaWxlX2lkIjoiNjVlNDAyOWQ2NWQ0NTMyMTBjZTY0YzVkYjQ3YjY0YTJlNmVmNmM0MSIsIng6cGRzX3BhcmFtcyI6IntcImFwXCI6XCIyNWR6WDN2Yllxa3RWeHlYXCJ9In0%3D&di=bj29&dr=1115420&f=65e4029d65d453210ce64c5db47b64a2e6ef6c41&pds-params=%7B%22ap%22%3A%2225dzX3vbYqktVxyX%22%7D&security-token=CAIS8gF1q6Ft5B2yfSjIr5bQHo%2FRgJhl1ZqmTm3Z3WQER%2FZ5gP2Ymzz2IHhMf3NpBOkZvvQ1lGlU6%2Fcalq5rR4QAXlDfNW%2FtUA7bqFHPWZHInuDox55m4cTXNAr%2BIhr%2F29CoEIedZdjBe%2FCrRknZnytou9XTfimjWFrXWv%2Fgy%2BQQDLItUxK%2FcCBNCfpPOwJms7V6D3bKMuu3OROY6Qi5TmgQ41Uh1jgjtPzkkpfFtkGF1GeXkLFF%2B97DRbG%2FdNRpMZtFVNO44fd7bKKp0lQLs0ARrv4r1fMUqW2X543AUgFLhy2KKMPY99xpFgh9a7j0iCbSGyUu%2FhqAAVzMMAlKZr9GGz5mf2syhXqT2PnJ5vUhn%2B2FcomJBa3La2OGr2rwBf0ujnGyU4w1VRsl2%2F%2F8iQ8zU8rwiMLZz7rbKZtX6SGEWL0kkfFqDUEKqGMRDLJErswN5kE5lXFMe6PfdmI4bDTO7AOYKveDrsfOjIpQS7yWrrLeJMamPiJ5IAA%3D&u=fadc815d169444cd8c9a8dd6cca2a8f6&x-oss-access-key-id=STS.NUeU5emGDbXMLKh9dQKyUo83y&x-oss-additional-headers=referer&x-oss-expires=1710606176&x-oss-signature=xnctWJpcQksAexCYcbwaVOMzh6JeNmk7F06w8hws7zQ%3D&x-oss-signature-version=OSS2'],
+					list: ['https://muiplayer.js.org/media/media.m3u8'],
+					header: {
+						Referer: 'https://www.alipan.com/',
+						referer: 'https://www.alipan.com/'
+					}
+				}
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+	.myvideo{
+		height: 480rpx;
+		width: 750rpx;
+	}
+</style>
